@@ -29,6 +29,7 @@ pip install fastapi uvicorn
 ## Structure du projet
 Créez une structure de projet qui sépare les éléments principaux :
 
+```
 my_fastapi_todo/
 ├── app/
 │   ├── __init__.py
@@ -37,6 +38,7 @@ my_fastapi_todo/
 │   ├── schemas.py
 │   └── routes.py
 ├── run.py
+```
 
 ## Run
 Après avoir écrire les models, les routes, vous pouvez lancer votre projet en utilisant la commande:
